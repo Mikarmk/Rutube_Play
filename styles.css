@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#videoContainer {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
