@@ -5,7 +5,7 @@ function embedVideo() {
         const iframe = `<iframe src="https://rutube.ru/play/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
         document.getElementById('videoContainer').innerHTML = iframe;
     } else {
-        alert('Пожалуйста, введите корректный URL видео с Rutube.');
+        alert('Пожалуйста, введите корректный ссылку');
     }
 }
 
